@@ -1,0 +1,168 @@
+
+.overlay{
+    background-image: url('https://event.com.sg/wp-content/uploads/Product-Launch.webp');
+    background-size: cover;
+     
+    height: 100vh;
+}
+.overlay-text{
+    color: white;
+    font-size: 50px;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    position: relative;
+    top: 290px;
+
+}
+.overlay-para{
+  color: rgb(250, 233, 0);
+text-shadow: 2px 2px 8px rgba(0,0,0,0.8);
+    font-size: 20px;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    position: relative;
+    top: 280px;
+
+}
+.btn{
+    position: relative;
+    top: 285px;
+    left: 600px;
+    border: none;
+    transition: 0.3s;
+}
+.btn:hover{
+    background-color: rgb(0, 0, 0);
+   transform: scale(1.1);
+    color: rgb(255, 255, 255);
+}
+.section-heading{
+   color:#3a465c;  
+  font-size: 35px;
+  padding-top: 40px;
+  padding-left: 30px;
+  padding-bottom: 20px;
+font-family: 'Arial', sans-serif;
+}
+.cards{
+    justify-content: space-around;
+    padding: 30px ;
+    background-color: rgb(213, 193, 193);  
+    
+}
+.card-text{
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.button{
+    background-color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 13px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 10px;
+
+}
+.button:hover{
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+   transform: scale(1.1);
+    color: rgb(255, 255, 255);
+}
+.section {
+    background-color:#d2beb0;
+
+}
+.card-img{
+    
+   height: 100%;
+ 
+    background-size: cover;
+}
+.section-heading2{
+    padding-top: 30px;
+    padding-left: 10px;
+}
+.scrollpage{
+ padding-bottom: 25px;
+    padding: 20px;
+}   
+.marquee-text{
+    font-size: 15px;
+    font-family: initial;
+ padding: 10px;
+    color: rgb(0, 0, 0);
+}
+.section2{
+   background: linear-gradient(to right, #f8cdda, #1d2b64);
+   padding: 30px;
+}
+.section3{
+    background-image: url('https://slidebazaar.com/wp-content/uploads/2024/08/Free-Professional-Background-PPT-Template.jpg');
+    background-size: cover;
+    height: 55vh;
+}
+.section-heading3{
+    color: rgb(0, 108, 116);
+    font-size: 30px;
+    font-family: 'Arial', sans-serif;
+}
+.section-para3{
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-family: 'Arial', sans-serif;  
+}
+.button2{
+    background-color: rgb(16, 69, 139);
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 5px;
+  width: 180px;   
+   
+}
+.button2:hover{
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+   transform: scale(1.1);
+    color: rgb(255, 255, 255);
+}
+.image2{
+    height: 260px;
+    width: 350px;
+   
+}
+.mockup-image{
+    height: 500px;
+    width: 360px;
+    
+  
+}
+.app-heading{
+    color: rgb(37, 36, 36);
+    font-size: 50px;
+   
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+}
+
+.app-para{
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-family: inherit;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.footer{
+  background: rgb(108, 108, 108);
+  color: white;
+  text-align: center;
+  padding: 30px;
+  margin-top: 50px;
+}

@@ -1,0 +1,9 @@
+# Ignore all PNG files anywhere in the repository
+*.png
+
+# Optional: also ignore JPG, JPEG, SVG, GIF, WebP
+*.jpg
+*.jpeg
+*.svg
+*.gif
+*.webp
