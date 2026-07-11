@@ -146,9 +146,7 @@ font-family: 'Arial', sans-serif;
   padding: 30px;
   margin-top: 50px;
 }
-/* ===========================
-        NAVBAR SEARCH
-=========================== */
+
 
 .search-wrapper{
     position:relative;
@@ -360,9 +358,10 @@ font-family: 'Arial', sans-serif;
     padding:8px 22px;
     border-radius:25px;
     transition:.3s;
+
 }
 
-.login-btn:hover{
+.login-btn{
     background:#084298;
 }
 .dropdown-menu{

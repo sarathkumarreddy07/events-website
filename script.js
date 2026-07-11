@@ -72,3 +72,23 @@ async function searchEvents(keyword) {
         console.error(error);
     }
 }
+function loginUser() {
+
+    let mobile = document.getElementById("mobile").value.trim();
+    let password = document.getElementById("password").value.trim();
+
+    if (mobile === "" || password === "") {
+        alert("Please fill above details.");
+        return;
+    }
+
+    // Hide Login Modal
+    $("#loginModal").modal("hide");
+
+    // Show Success Modal
+    $("#successModal").modal("show");
+
+    // Clear fields
+    document.getElementById("mobile").value = "";
+    document.getElementById("password").value = "";
+}

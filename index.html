@@ -90,12 +90,79 @@
             <a class="nav-link px-3" href="#contact">Contact</a>
         </div>
         <div class="ml-auto">
-            <button class="login-btn">
+            <button class="login-btn"
+           data-toggle="modal"
+    data-target="#loginModal">
                 Login
             </button>
           </div>
     </div>
 </nav>
+
+<div class="modal fade" id="loginModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Login</h5>
+                <button type="button" class="close" data-dismiss="modal">
+                    <span>&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="form-group">
+                    <label>Mobile Number</label>
+                    <input
+                        type="tel"
+                        id="mobile"
+                        class="form-control"
+                        placeholder="Enter Mobile Number">
+                </div>
+                <div class="form-group">
+                    <label>Password</label>
+                    <input
+                        type="password"
+                        id="password"
+                        class="form-control"
+                        placeholder="Enter Password">
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button
+                    type="button"
+                    class="btn btn-primary"
+                    onclick="loginUser()">
+                    OK
+                </button>
+                <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-dismiss="modal">
+                    Cancel
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="successModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content text-center">
+            <div class="modal-body p-5">
+                <div style="font-size:70px;color:green;">
+                    ✔
+                </div>
+                <h3 class="mt-3">
+                    Login Successful!
+                </h3>
+                <button
+                    type="button"
+                    class="btn btn-success mt-4"
+                    data-dismiss="modal">
+                    OK
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
 <section class="hero">
     <img src="https://img.magnific.com/premium-photo/crowd-people-are-cheering-front-blue-background-with-words-peace-it_577115-119907.jpg?semt=ais_hybrid&w=740&q=80"
          class="hero-image">
@@ -413,7 +480,7 @@ Experience the thrill of live events near you! | Discover concerts, sports, fest
   <button class="button2 btn-dark ">Create Event</button>
   </div>
   <div class="col-6 ">
-  <img src="images/now-its-your-turn.png" alt="Now It's Your Turn" class="image2">
+  <img src="https://kommodo.ai/i/QWVRSixhEHvLB5SyqTxt" alt="Now It's Your Turn" class="image2">
 </div>
 </div>
 </div>
@@ -422,7 +489,7 @@ Experience the thrill of live events near you! | Discover concerts, sports, fest
     <div class="container">
       <div class="row">
         <div class="d-none d-md-block"> 
-          <img src="images/app-mockup.png" alt="Spot Events App" class="mockup-image ml-5"></div>
+          <img src="https://kommodo.ai/i/uStk8yLYtOzslsxnHNcv" alt="Spot Events App" class="mockup-image ml-5"></div>
     </div>
  </div>
  </div>
@@ -430,8 +497,8 @@ Experience the thrill of live events near you! | Discover concerts, sports, fest
     <h2 class="app-heading" >Discover Events <br/> Anytime, Anywhere</h2>
   
     <div>
-      <img src="images/qrimg.png" alt="QR Code" class="qr-img"height="150px" width="150px">
-      <img src="images/playstore.png" alt="Google Play Store" class="playstore-img" height="150px" width="250px">
+      <img src="https://kommodo.ai/i/Xmhy8XBTw6ESakXrso5u" alt="QR Code" class="qr-img"height="150px" width="150px">
+      <img src="https://kommodo.ai/i/mBBTwEm4lSoU8ofuIGJE" alt="Google Play Store" class="playstore-img" height="150px" width="250px">
     </div>
   </div>
 </div>
